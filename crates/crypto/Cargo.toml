@@ -1,0 +1,9 @@
+[package]
+name = "nova-crypto"
+version = "0.1.0"
+edition = "2024"
+license = "Apache-2.0"
+
+[dependencies]
+blake3 = "1"
+nova-types = { path = "../types" }
