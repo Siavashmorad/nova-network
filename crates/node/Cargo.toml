@@ -1,0 +1,11 @@
+[package]
+name = "nova-node"
+version = "0.1.0"
+edition = "2024"
+license = "Apache-2.0"
+
+[dependencies]
+nova-crypto = { path = "../crypto" }
+nova-state = { path = "../state" }
+nova-storage = { path = "../storage" }
+nova-types = { path = "../types" }
