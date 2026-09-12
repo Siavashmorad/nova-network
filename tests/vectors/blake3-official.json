@@ -1,0 +1,17 @@
+{
+  "algorithm": "BLAKE3",
+  "mode": "hash",
+  "source": "BLAKE3-team/BLAKE3 test_vectors/test_vectors.json",
+  "output_length": 32,
+  "input_rule": "bytes are the repeating sequence 0,1,2,...,250,0,1,...",
+  "vectors": [
+    {"input_len":0,"hash":"af1349b9f5f9a1a6a0404dea36dcc9499bcb25c9adc112b7cc9a93cae41f326"},
+    {"input_len":1,"hash":"2d3adedff11b61f14c886e35afa036736dcd87a74d27b5c1510225d0f592e213"},
+    {"input_len":2,"hash":"7b7015bb92cf0b318037702a6cdd81dee41224f734684c2c122cd6359cb1ee63"},
+    {"input_len":3,"hash":"e1be4d7a8ab5560aa4199eea339849ba8e293d55ca0a81006726d184519e647f"},
+    {"input_len":4,"hash":"f30f5ab28fe047904037f77b6da4fea1e27241c5d132638d8bedce9d40494f32"},
+    {"input_len":5,"hash":"b40b44dfd97e7a84a996a91af8b85188c66c126940ba7aad2e7ae6b385402aa2"},
+    {"input_len":6,"hash":"06c4e8ffb6872fad96f9aaca5eee1553eb62aed0ad7198cef42e87f6a616c844"},
+    {"input_len":7,"hash":"3f8770f387faad08faa9d8414e9f449ac68e6ff0417f673f602a646a891419fe"}
+  ]
+}
