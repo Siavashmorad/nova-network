@@ -1,0 +1,10 @@
+{
+  "status": "reference-baseline",
+  "encoding": "little-endian-fixed-width",
+  "vectors": [
+    {"name":"u8","value":18,"encoded":"12"},
+    {"name":"u32","value":16909060,"encoded":"04030201"},
+    {"name":"u64","value":72623859790382856,"encoded":"0807060504030201"},
+    {"name":"bytes","value_utf8":"NOVA","encoded":"040000004e4f5641"}
+  ]
+}
